@@ -9,7 +9,7 @@ public class testSelectionSort {
 
 	
 
-
+	@Test
     public void testPositive(){
         int[] arr = new int[5];
         arr[0] = 8;
@@ -32,7 +32,7 @@ public class testSelectionSort {
         Assert.assertArrayEquals(Sortedarr, arr);
     }
     
-	
+	@Test	
     public void testNegative(){
 	    int[] arr = new int[5];
         arr[0] = -8;
@@ -55,7 +55,7 @@ public class testSelectionSort {
         Assert.assertArrayEquals(Sortedarr, arr);
 }
     
-
+	@Test
     public void testMixed(){
         
 		int[] arr = new int[5];
@@ -79,7 +79,7 @@ public class testSelectionSort {
         Assert.assertArrayEquals(Sortedarr, arr);
     }
     
-
+	@Test
     public void testDuplicates(){
         
 		int[] arr = new int[5];
